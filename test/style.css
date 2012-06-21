@@ -20,13 +20,11 @@ div.banner ul{
 div.banner ul li{
 	display:block;
 	position:absolute;
-	float:left;
 }
 div.banner ul li img{
 	display:block;
 }
-div.banner span.next{
-	display:block;
+div.banner .next{
 	width:40px;
 	height:40px;
 	display:block;
@@ -36,8 +34,7 @@ div.banner span.next{
 	background-image:url('image/next.png');
 	background-repeat:no-repeat;
 }
-div.banner span.back{
-	display:block;
+div.banner .back{
 	width:40px;
 	height:40px;
 	display:block;
