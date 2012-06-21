@@ -13,10 +13,22 @@
 			var iszep = !!window.Zepto,
 				cuePos=[],
 				slides = this;
-
+				
 			slides.each(function(){
-				console.log(this);
+				var p,obj = {};
+				for(var i in options.transitionProperty){
+					p=options.transitionProperty[i]
+					obj[p]=$(this).css(p);
+				}
+				cuePos.push(obj);
 			});
+			
+			/*console.log(cuePos.push(cuePos.shift()));
+			console.log(cuePos);*/
+			$('span.next').click(function(){
+				console.log(cuePos.push(cuePos.shift()));
+				console.log(cuePos)
+			})
 
 			/*cuePos = [
 				{
