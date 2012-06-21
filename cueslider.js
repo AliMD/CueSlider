@@ -7,7 +7,7 @@
 				duration : 1000,
 				autoPlay : false,
 				autoPlayInterval : 3000,
-				transitionProperty:'left top opacity'.split(' ');
+				transitionProperty:'left top opacity'.split(' ')
 			},options);
 
 			var iszep = !!window.Zepto,

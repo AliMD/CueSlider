@@ -1,19 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;	
+}
 body{
 	background : #353535;
 	color : #eee;
 }
-#canvas3d{
-	position   : absolute;
-	left       : 0;
-	right      : 0;
-	top        : 0;
-	bottom     : 0;
-	margin     : auto;
-	outline    : 1px solid #050505;
-	background : #202020;
+div.banner{
+	position:relative;
+	margin:200px auto 0;
+	width:800px;
+	height:300px;
+	outline:1px solid #FFF; 
 }
-#fps{
-	color:#353535;
-	text-shadow : 0px 0px 2px white, 0 0 2px #99E;
-	letter-spacing: 1px;
+div.banner ul{
+	margin-top:10px;	
 }
+div.banner ul li{
+	display:block;
+	position:absolute;
+	float:left;
+}
+div.banner ul li img{
+	display:block;
+}
+	
