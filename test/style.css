@@ -4,7 +4,7 @@
 	border:0;	
 }
 body{
-	background : #353535;
+	background : #FFF;
 	color : #eee;
 }
 div.banner{
@@ -24,5 +24,27 @@ div.banner ul li{
 }
 div.banner ul li img{
 	display:block;
+}
+div.banner span.next{
+	display:block;
+	width:40px;
+	height:40px;
+	display:block;
+	position:absolute;
+	right:-10px;
+	top:110px;
+	background-image:url('image/next.png');
+	background-repeat:no-repeat;
+}
+div.banner span.back{
+	display:block;
+	width:40px;
+	height:40px;
+	display:block;
+	position:absolute;
+	left:-10px;
+	top:110px;
+	background-image:url('image/prev.png');
+	background-repeat:no-repeat;
 }
 	
