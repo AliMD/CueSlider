@@ -25,8 +25,12 @@
 				cuePos.push(obj);
 			});
 
-			cuePos.shifc = function(){
-				this.push(this.shift());
+			cuePos.shifc = function(revert){
+				if(revert){
+					this.unshift(this.pop());
+				}else{
+					this.push(this.shift());
+				}
 			};
 
 			slides.refresh = function(){
@@ -38,9 +42,18 @@
 			$(options.nextBtn).click(function(){
 				slides.cuenext();
 			});
+			$(options.backBtn).click(function(){
+				slides.cueback();
+			});
 		},
+
 		cuenext : function(){
 			this.cuePos.shifc();
+			this.refresh();
+		},
+		
+		cueback : function(){
+			this.cuePos.shifc(true);
 			this.refresh();
 		}
 	});
