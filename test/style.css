@@ -32,6 +32,7 @@ div.banner .next{
 	background-image:url('image/next.png');
 	background-repeat:no-repeat;
 }
+
 div.banner .back{
 	width:40px;
 	height:40px;
@@ -42,4 +43,15 @@ div.banner .back{
 	background-image:url('image/prev.png');
 	background-repeat:no-repeat;
 }
-	
+
+div.banner .ngallery{
+	left: 150px !important;
+	top: -48px !important;
+	background-image:url(image/gallery-nxt.png) !important;
+}
+
+div.banner .pgallery{
+	left: 70px !important;
+	top: 830px !important;
+	background-image:url(image/gallery-prv.png) !important;
+}
