@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;	
+}
+body{
+	background : #FFF;
+	color : #eee;
+
+	background-image:url('../images/2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+div.welcom{
+	background-image:url('../images/cueslider/claim.png');
+	width:750px;
+	height:75px;
+	margin:0 auto;
+}
+
+div.banner{
+	position:relative;
+	margin:200px auto 0;
+	width:900px; 
+}
+div.banner ul{
+	margin-top:10px;	
+}
+div.banner ul li{
+	display:block;
+	position:absolute;
+}
+div.banner ul li img{
+	display:block;
+	cursor:pointer;
+	-webkit-transition:all 0.5s;
+}
+
+div.banner ul li img:hover{
+	-webkit-transform: scale(1.3,1.3);
+	-moz-transform: scale(1.3,1.3);
+	-ms-transform: scale(1.3,1.3);
+	-o-transform: scale(1.3,1.3);
+	transform: scale(1.3,1.3);
+}
+
+div.banner .next{
+	width:40px;
+	height:40px;
+	display:block;
+	position:absolute;
+	right:0;
+	top:110px;
+	background-image:url('../images/cueslider/next.png');
+	background-repeat:no-repeat;
+}
+
+div.banner .back{
+	width:40px;
+	height:40px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:110px;
+	background-image:url('../images/cueslider/prev.png');
+	background-repeat:no-repeat;
+}
+
+div.banner .ngallery{
+	left: 150px !important;
+	top: -48px !important;
+	background-image:url(../images/cueslider/gallery-nxt.png) !important;
+}
+
+div.banner .pgallery{
+	left: 70px !important;
+	top: 830px !important;
+	background-image:url(../images/cueslider/gallery-prv.png) !important;
+}
